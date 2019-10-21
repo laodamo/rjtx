@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/student?serverTimezone=UTC
+  jpa:
+    #    update  更新或创建数据表
+    hibernate:
+      ddl-auto: update
+    #    控制台显示sql
+    show-sql: true
+#    initialSize : 4
+#    schema:
+#    - classpath:schema.sql
+logging:
+  file: aaa.log
+#    initialization-mode: always

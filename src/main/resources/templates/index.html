@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>gender</th>
+            <th>tel</th>
+        </tr>
+        <tr th:each="user: ${all}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.gender}"></td>
+            <td th:text="${user.tel}"></td>
+        </tr>
+    </table>
+    <a href="/add" th:href="@{/add}">添加</a>
+    <!--<table >-->
+        <!--<tr th:each="a: ${error}">-->
+            <!--<td th:text="${a}"></td>-->
+        <!--</tr>-->
+    <!--</table>-->
+
+
+</body>
+</html>

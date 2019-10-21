@@ -1,0 +1,143 @@
+2019-10-21 08:04:37.742  INFO 4288 --- [main] c.c.r.RjtxHomework6Application           : Starting RjtxHomework6Application on DESKTOP-B1E2D15 with PID 4288 (D:\IDEAJava\rjtx_homework6\target\classes started by think in D:\IDEAJava\rjtx_homework6)
+2019-10-21 08:04:37.745  INFO 4288 --- [main] c.c.r.RjtxHomework6Application           : No active profile set, falling back to default profiles: default
+2019-10-21 08:04:38.687  INFO 4288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-21 08:04:38.774  INFO 4288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 1 repository interfaces.
+2019-10-21 08:04:39.179  INFO 4288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41d5f573] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-21 08:04:39.569  INFO 4288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-21 08:04:39.592  INFO 4288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-21 08:04:39.593  INFO 4288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-21 08:04:39.724  INFO 4288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-21 08:04:39.724  INFO 4288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1921 ms
+2019-10-21 08:04:39.875  INFO 4288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-21 08:04:44.594  INFO 21296 --- [main] c.c.r.RjtxHomework6Application           : Starting RjtxHomework6Application on DESKTOP-B1E2D15 with PID 21296 (D:\IDEAJava\rjtx_homework6\target\classes started by think in D:\IDEAJava\rjtx_homework6)
+2019-10-21 08:04:44.599  INFO 21296 --- [main] c.c.r.RjtxHomework6Application           : No active profile set, falling back to default profiles: default
+2019-10-21 08:04:45.653  INFO 21296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-21 08:04:45.724  INFO 21296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2019-10-21 08:04:46.100  INFO 21296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fc2107e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-21 08:04:46.421  INFO 21296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-21 08:04:46.445  INFO 21296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-21 08:04:46.446  INFO 21296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-21 08:04:46.598  INFO 21296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-21 08:04:46.599  INFO 21296 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1946 ms
+2019-10-21 08:04:46.766  INFO 21296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-21 08:04:48.544  INFO 21296 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-21 08:04:48.590  INFO 21296 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-21 08:04:48.641  INFO 21296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-21 08:04:48.642  INFO 21296 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-21 08:04:48.785  INFO 21296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-21 08:04:48.895  INFO 21296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-21 08:04:49.411  INFO 21296 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-21 08:04:49.878  INFO 21296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-21 08:04:49.933  WARN 21296 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-21 08:04:49.990  INFO 21296 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-21 08:04:50.155  INFO 21296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-21 08:04:50.158  INFO 21296 --- [main] c.c.r.RjtxHomework6Application           : Started RjtxHomework6Application in 6.44 seconds (JVM running for 9.368)
+2019-10-21 08:04:50.550  INFO 21296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-21 08:04:50.550  INFO 21296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-21 08:04:50.560  INFO 21296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-10-21 08:04:50.652  INFO 21296 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-21 08:05:12.607  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910011111, name=1, gender=1, tel=15536861871)
+2019-10-21 08:05:12.620  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:12.620  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:05:12.620  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:05:12.620  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:05:12.621  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 用户验证成功...
+2019-10-21 08:05:54.113  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:54.118  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:54.118  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:54.119  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:54.119  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:57.745  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:57.750  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:57.751  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:57.751  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:57.751  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:58.092  INFO 21296 --- [http-nio-8080-exec-10] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:58.097  INFO 21296 --- [http-nio-8080-exec-10] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:58.098  INFO 21296 --- [http-nio-8080-exec-10] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:58.098  INFO 21296 --- [http-nio-8080-exec-10] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:58.098  INFO 21296 --- [http-nio-8080-exec-10] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:58.252  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:58.256  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:58.256  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:58.256  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:58.256  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:58.392  INFO 21296 --- [http-nio-8080-exec-2] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:58.397  INFO 21296 --- [http-nio-8080-exec-2] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:58.398  INFO 21296 --- [http-nio-8080-exec-2] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:58.398  INFO 21296 --- [http-nio-8080-exec-2] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:58.398  INFO 21296 --- [http-nio-8080-exec-2] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:58.556  INFO 21296 --- [http-nio-8080-exec-3] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:58.561  INFO 21296 --- [http-nio-8080-exec-3] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:58.561  INFO 21296 --- [http-nio-8080-exec-3] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:58.561  INFO 21296 --- [http-nio-8080-exec-3] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:58.561  INFO 21296 --- [http-nio-8080-exec-3] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:05:58.691  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=, name=, gender=, tel=)
+2019-10-21 08:05:58.697  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:05:58.697  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:05:58.697  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:05:58.697  INFO 21296 --- [http-nio-8080-exec-4] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:06:01.713  INFO 21296 --- [http-nio-8080-exec-5] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=是, name=, gender=, tel=)
+2019-10-21 08:06:01.719  INFO 21296 --- [http-nio-8080-exec-5] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:06:01.719  INFO 21296 --- [http-nio-8080-exec-5] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:06:01.719  INFO 21296 --- [http-nio-8080-exec-5] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:06:01.719  INFO 21296 --- [http-nio-8080-exec-5] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:06:04.846  INFO 21296 --- [http-nio-8080-exec-7] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=是, name=, gender=, tel=)
+2019-10-21 08:06:04.852  INFO 21296 --- [http-nio-8080-exec-7] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:06:04.852  INFO 21296 --- [http-nio-8080-exec-7] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:06:04.852  INFO 21296 --- [http-nio-8080-exec-7] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:06:04.852  INFO 21296 --- [http-nio-8080-exec-7] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:06:07.588  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=大苏打, name=, gender=, tel=)
+2019-10-21 08:06:07.593  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:06:07.594  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:06:07.594  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:06:07.594  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:06:14.528  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=2, name=曹, gender=1, tel=我)
+2019-10-21 08:06:14.533  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:06:14.533  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 身份证号位数不正确
+2019-10-21 08:06:14.533  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:06:14.533  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:06:24.383  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030316, name=曹, gender=1, tel=15536861871)
+2019-10-21 08:06:24.390  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 该注册用户已存在！
+2019-10-21 08:06:24.390  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:06:24.390  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:06:24.390  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:06:24.390  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:07:28.934  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030316, name=曹, gender=1, tel=15536861871)
+2019-10-21 08:07:28.939  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:07:28.940  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:07:28.940  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:07:28.940  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:07:28.940  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 用户验证成功...
+2019-10-21 08:07:34.977  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030316, name=曹, gender=1, tel=15536861871)
+2019-10-21 08:07:34.982  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 该注册用户已存在！
+2019-10-21 08:07:34.983  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:07:34.983  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:07:34.983  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:07:34.983  INFO 21296 --- [http-nio-8080-exec-9] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:07:42.739  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030317, name=曹, gender=1, tel=15536861871)
+2019-10-21 08:07:42.745  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:07:42.745  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:07:42.745  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:07:42.746  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:07:42.746  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 用户验证成功...
+2019-10-21 08:08:26.998  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030326, name=从, gender=0, tel=13522222222)
+2019-10-21 08:08:27.004  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:08:27.004  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:08:27.004  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:08:27.004  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:08:27.004  INFO 21296 --- [http-nio-8080-exec-6] c.c.r.configure.AddHandlerInterceptor    : 用户验证成功...
+2019-10-21 08:08:42.722  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030326, name=从, gender=0, tel=13522222222)
+2019-10-21 08:08:42.727  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 该注册用户已存在！
+2019-10-21 08:08:42.728  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:08:42.728  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 性别验证成功！
+2019-10-21 08:08:42.728  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 电话格式验证通过！
+2019-10-21 08:08:42.728  INFO 21296 --- [http-nio-8080-exec-8] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
+2019-10-21 08:08:58.625  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 准备用户验证...User(id=142727199910030346, name=曹, gender=1, tel=1)
+2019-10-21 08:08:58.630  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 重复验证成功
+2019-10-21 08:08:58.630  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 身份证验证成功！
+2019-10-21 08:08:58.630  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 性别与身份证上信息不符！
+2019-10-21 08:08:58.630  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 电话号码小于三位数！
+2019-10-21 08:08:58.630  INFO 21296 --- [http-nio-8080-exec-1] c.c.r.configure.AddHandlerInterceptor    : 用户验证失败...
